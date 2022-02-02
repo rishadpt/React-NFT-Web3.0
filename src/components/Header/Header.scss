@@ -44,9 +44,7 @@
         display: flex;
         align-items: center;
         margin: 40px;
-        .header-actions > div{
-            margin: 10px;
-        }
+      
 
         .theme-switch-container {
             display: flex;
@@ -62,10 +60,14 @@
             height: 25px;
         }
     }
+    .header-actions > div{
+        margin: 10px;
+    }
     .login-container{
         background: linear-gradient(to right, #59f9b7,#66feea);
         padding: 12px 35px; 
         border-radius:50px;
         color:black;
     }
+    
 }
